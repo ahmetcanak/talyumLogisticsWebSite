@@ -40,6 +40,7 @@
                 $this.addClass(showClass);
                 $this.find($dropdownToggle).attr("aria-expanded", "true");
                 $this.find($dropdownMenu).addClass(showClass);
+                $this.find($dropdownMenu).addClass("nav-link active");
             },
             function() {
                 const $this = $(this);
@@ -70,8 +71,11 @@
 
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
-        delay: 10,
-        time: 2000
+        delay: 5,
+        time: 1500,
+        formatter: function (n) {
+            return n + '+';
+        }
     });
 
 
