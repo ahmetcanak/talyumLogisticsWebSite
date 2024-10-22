@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Web sitesi kökündeki Microsoft 365 - konumu için etki alanı sahipliği doğrulama dosyası",
+  "Domain": "talyumlogistics.com",
+  "Id": "6146c505-c304-4011-9251-c5b845ae498f"
+}
